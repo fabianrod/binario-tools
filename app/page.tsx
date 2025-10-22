@@ -34,11 +34,14 @@ export default function Home() {
               </div>
             </div>
 
-            {/* CTA Button */}
-            <div className="hidden md:block">
-              <button className="bg-blue-600 text-white px-6 py-2 rounded-lg text-sm font-medium hover:bg-blue-700 transition-colors">
+            {/* CTA Buttons */}
+            <div className="hidden md:block flex items-center space-x-4">
+              <a href="/login" className="text-gray-600 hover:text-gray-900 px-3 py-2 text-sm font-medium transition-colors">
+                Sign In
+              </a>
+              <a href="/register" className="bg-blue-600 text-white px-6 py-2 rounded-lg text-sm font-medium hover:bg-blue-700 transition-colors">
                 Get Started
-              </button>
+              </a>
             </div>
 
             {/* Mobile menu button */}
@@ -78,12 +81,12 @@ export default function Home() {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-              <button className="bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-all duration-200 transform hover:scale-105 shadow-lg hover:shadow-xl">
+              <a href="/register" className="bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-all duration-200 transform hover:scale-105 shadow-lg hover:shadow-xl">
                 Try Now
-              </button>
-              <button className="bg-white text-gray-900 px-8 py-4 rounded-lg text-lg font-semibold border-2 border-gray-200 hover:border-gray-300 transition-all duration-200 transform hover:scale-105 shadow-lg hover:shadow-xl">
+              </a>
+              <a href="/login" className="bg-white text-gray-900 px-8 py-4 rounded-lg text-lg font-semibold border-2 border-gray-200 hover:border-gray-300 transition-all duration-200 transform hover:scale-105 shadow-lg hover:shadow-xl">
                 Watch Demo
-              </button>
+              </a>
             </div>
 
             {/* Connected Tools */}
@@ -668,9 +671,9 @@ export default function Home() {
 
                 {/* CTA Button */}
                 <div className="text-center">
-                  <button className="bg-gray-600 text-white px-8 py-3 rounded-xl text-lg font-semibold hover:bg-gray-700 transition-all duration-200 transform hover:scale-105 shadow-lg hover:shadow-xl w-full">
+                  <a href="/register" className="bg-gray-600 text-white px-8 py-3 rounded-xl text-lg font-semibold hover:bg-gray-700 transition-all duration-200 transform hover:scale-105 shadow-lg hover:shadow-xl w-full inline-block">
                     Start Free
-                  </button>
+                  </a>
                   <p className="text-sm text-gray-500 mt-4">
                     No credit card required • Start immediately
                   </p>
@@ -727,9 +730,9 @@ export default function Home() {
 
                 {/* CTA Button */}
                 <div className="text-center">
-                  <button className="bg-blue-600 text-white px-8 py-3 rounded-xl text-lg font-semibold hover:bg-blue-700 transition-all duration-200 transform hover:scale-105 shadow-lg hover:shadow-xl w-full">
+                  <a href="/register" className="bg-blue-600 text-white px-8 py-3 rounded-xl text-lg font-semibold hover:bg-blue-700 transition-all duration-200 transform hover:scale-105 shadow-lg hover:shadow-xl w-full inline-block">
                     Upgrade to Premium - $19
-                  </button>
+                  </a>
                   <p className="text-sm text-gray-500 mt-4">
                     One-time payment • 12 months access • All features included
                   </p>
